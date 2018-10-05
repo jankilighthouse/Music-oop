@@ -54,10 +54,8 @@ const libraryTest = new Library("Bollywood", "Asiff");
 const playliTest = new Playlist("emotion");
 const trackTest = new Track("love", 4, 250);
 
-
 playliTest.addTrack(trackTest);
 libraryTest.addPlaylist(playliTest);
-
 
 console.log("libraryTest:      ", libraryTest);
 console.log("playliTest:     ", playliTest);
